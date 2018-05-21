@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Osm Clock</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+</head>
+<body>
+  <h1 class="heading">&#9979; Menstrual Clock</h1>
+  <img src="img/ped.gif" class="pad">
+<div class="box">
+  <div class="clock">
+    <span id="hours"></span>
+    <span id="minutes"></span>
+    <span id="seconds"></span>
+  </div>
+  <div class="date">
+    <div id="daymonth"></div>
+    <div id="year"></div>
+  </div>
+</div>
+<img src="img/pad.gif" class="pad"><br>
+
+<div class="btn">
+<label class="period">Previos Peroid Date</label>
+<input id="periodate" type="text" name="date" value=" ">
+
+<label class="period">Put periode cycle</label>
+<input id="periodates" type="text" name="date" value=" ">
+</div>
+
+<p class="pera">Click to know that when you will have your period</p>
+<button class="enjoy" onclick="fun()">Enjoy</button>
+<button class="enjoy" onclick="Del()">Delete</button>
+<p id="result"></p>
+
+</body>
+<script type="text/javascript" src="script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Snowstorm/20131208/snowstorm.js"=></script>
+
+</html>
